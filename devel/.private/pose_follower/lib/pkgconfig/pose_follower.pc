@@ -1,0 +1,8 @@
+prefix=/home/alaliqing/Documents/HIWI/reeds_shepp_rrtstar_ws/devel/.private/pose_follower
+
+Name: pose_follower
+Description: Description of pose_follower
+Version: 0.4.0
+Cflags: -I/home/alaliqing/Documents/HIWI/reeds_shepp_rrtstar_ws/devel/.private/pose_follower/include -I/home/alaliqing/Documents/HIWI/reeds_shepp_rrtstar_ws/src/pose_follower/include
+Libs: -L${prefix}/lib -lpose_follower
+Requires: nav_core base_local_planner costmap_2d roscpp tf2_geometry_msgs tf2_ros nav_msgs pluginlib dynamic_reconfigure

@@ -1,0 +1,23 @@
+\subsubsection usage Usage
+\verbatim
+<node name="pose_follower" pkg="pose_follower" type="pose_follower">
+  <param name="max_vel_lin" type="double" value="0.9" />
+  <param name="max_vel_th" type="double" value="1.4" />
+  <param name="min_vel_lin" type="double" value="0.1" />
+  <param name="min_vel_th" type="double" value="0.0" />
+  <param name="min_in_place_vel_th" type="double" value="0.0" />
+  <param name="in_place_trans_vel" type="double" value="0.0" />
+  <param name="trans_stopped_velocity" type="double" value="0.0001" />
+  <param name="rot_stopped_velocity" type="double" value="0.0001" />
+  <param name="tolerance_trans" type="double" value="0.02" />
+  <param name="tolerance_rot" type="double" value="0.04" />
+  <param name="tolerance_timeout" type="double" value="0.5" />
+  <param name="samples" type="int" value="10" />
+  <param name="allow_backwards" type="bool" value="False" />
+  <param name="turn_in_place_first" type="bool" value="False" />
+  <param name="max_heading_diff_before_moving" type="double" value="0.17" />
+  <param name="k_trans" type="double" value="2.0" />
+  <param name="k_rot" type="double" value="2.0" />
+</node>
+\endverbatim
+

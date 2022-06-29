@@ -1,0 +1,6 @@
+base_global_planner: rrt_star_global_planner/RRTStarPlanner 
+
+RRTStarPlanner:
+  goal_tolerance: 0.2
+  radius: 500
+  max_iter: 20001
